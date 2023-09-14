@@ -1,7 +1,6 @@
 * {
-  color: #fff;
+  color: $text-color-white;
 }
-
 body {
   background-image: url("../assets/backgroundLp.png");
   background-size: 100vmax 100vh;
@@ -11,7 +10,7 @@ body {
 }
 
 .card-body {
-  background-color: rgba(19, 18, 18, 0.9450980392);
+  background-color: $bg-color-dark;
 }
 
 @media (max-width: 540px) {
@@ -25,5 +24,3 @@ body {
     background-size: auto;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
