@@ -1,0 +1,25 @@
+* {
+  color: white;
+}
+body {
+  background-image: url("../assets/backgroundLp.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  width: 450px;
+  height: auto;
+}
+
+.card-body {
+  background-color: #131212f1;
+}
+
+@media (max-width: 460px) {
+  body {
+    width: auto;
+  }
+}
+@media (min-width: 1910px) {
+    body {
+        background-size: 100vw;
+      }
+  }
